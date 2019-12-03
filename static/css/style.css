@@ -1,56 +1,61 @@
-@import url('https://fonts.googleapis.com/css?family=Merriweather');
-@import url('https://fonts.googleapis.com/css?family=Alegreya+Sans+SC');
 body, li  p {
-	font-family: 'Merriweather', serif;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+    color: #555;
 }
 
 h1,h2,h3,h4,h5,h6,header,header.a {
-	text-transform: lowercase;
-	font-family: 'Alegreya Sans SC', sans-serif;
+    /* text-transform: lowercase; */
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+}
+h1 .page-title {
+    color: #263c4c;
+}
+.page-title {
+    font-weight: 700;
 }
 
 header,header.a{
-	font-weight: bold;
+    font-weight: bold;
 }
 
 @media all {
-	html {
-		font-size: 18px;
-	}
-	body > * {
-		font-size: 100%;
-		margin-left: 7.5rem;
-		margin-right: 7.5rem;
-	}
+    html {
+        font-size: 18px;
+    }
+    body > * {
+        font-size: 100%;
+        margin-left: 7.5rem;
+        margin-right: 7.5rem;
+    }
 }
 @media all and (max-width:840px){
-	html {
-		font-size: 17px;
-	}
-	body > * {
-		margin-left: 5.5rem;
-		margin-right: 5.5rem;
+    html {
+        font-size: 17px;
+    }
+    body > * {
+        margin-left: 5.5rem;
+        margin-right: 5.5rem;
     }
 }
 @media all and (max-width:760px){
-	body > * {
-		margin-left: 2.5rem;
-		margin-right: 2.5rem;
+    body > * {
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
     }
 }
 @media all and (max-width:580px){
-	html {
-		font-size: 16px;
-	}
-	body > * {
+    html {
+        font-size: 16px;
+    }
+    body > * {
         margin: 0.7rem 1.5rem 0 1.5rem;
     }
 }
 
 /* reset */
 * {
-margin: 0;
-padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
 html {
@@ -58,182 +63,199 @@ html {
 }
 
 body {
-	padding: 0rem 0em 0rem 0em;
-	margin-left:auto;
-	margin-right:auto;
-	width:100%;
-	max-width:1000px;
-	min-height: 100%;
-	text-rendering: optimizeLegibility;
-	-moz-font-feature-settings: 'kern=1';
-	-moz-font-feature-settings: 'kern' 1;
-	-webkit-font-feature-settings: 'kern' 1;
-	-o-font-feature-settings: 'kern' 1;
-	-ms-font-feature-settings: 'kern' 1;
-	font-feature-settings: 'kern' 1;
+    padding: 0rem 0em 0rem 0em;
+    margin-left:auto;
+    margin-right:auto;
+    width:100%;
+    max-width:1000px;
+    min-height: 100%;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: 'kern=1';
+    -moz-font-feature-settings: 'kern' 1;
+    -webkit-font-feature-settings: 'kern' 1;
+    -o-font-feature-settings: 'kern' 1;
+    -ms-font-feature-settings: 'kern' 1;
+    font-feature-settings: 'kern' 1;
 
-	text-rendering: optimizeLegibility;
-	-moz-font-feature-settings: 'liga=1';
-	-moz-font-feature-settings: 'liga' 1;
-	-webkit-font-feature-settings: 'liga' 1;
-	-o-font-feature-settings: 'liga' 1;
-	-ms-font-feature-settings: 'liga' 1;
-	font-feature-settings: 'liga' 1;
+    text-rendering: optimizeLegibility;
+    -moz-font-feature-settings: 'liga=1';
+    -moz-font-feature-settings: 'liga' 1;
+    -webkit-font-feature-settings: 'liga' 1;
+    -o-font-feature-settings: 'liga' 1;
+    -ms-font-feature-settings: 'liga' 1;
+    font-feature-settings: 'liga' 1;
 }
 
-div.content { 
-    display: block; 
+div.content {
+    display: block;
     padding: 1rem 0rem 5rem 0;
 }
 
 header {
-	display:block;
-	padding: 0.5rem 0 0.5rem 0;
-	border-bottom: 0.10em solid black;
+    display: block;
+    padding: 5.5rem 0 1.5rem 0;
 }
 
 footer {
-	display:block;
-	padding: 0.5rem 0 5.5rem 0;
+    display:block;
+    padding: 0.5rem 0 5.5rem 0;
 }
 
 @media all and (max-width:520px) {
-    div.content { 
-    	padding: 0;
+    div.content {
+        padding: 0;
     }
 }
 
 h1 {
-	display: block;
-	font-size: 170%;
-	line-height: 1.1;
-	margin-top: 1rem;
-	margin-bottom: 1.5rem;
-	padding-top: 0.02em;
-	-moz-hyphens: none;
-	-webkit-hyphens: none;
-	-o-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
+    display: block;
+    font-size: 170%;
+    line-height: 1.1;
+    margin-top: 1rem;
+    margin-bottom: 1.5rem;
+    padding-top: 0.02em;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -o-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
 }
 
 aside {
-	font-size: 0.84rem;
-	line-height: 1.40;
-	color: #667;
+    font-size: 0.84rem;
+    line-height: 1.40;
+    color: #667;
 }
 
 aside em {
-	font-size: 0.7rem;
+    font-size: 0.7rem;
 }
 
-
 p {
-	margin-bottom: 1em;
-	line-height: 1.45;
+    margin-bottom: 1em;
+    line-height: 1.45;
 }
 
 ul,ol {
-	margin-bottom: 1em;
-	padding-left: 1em;
+    margin-bottom: 1em;
+    padding-left: 1em;
 }
 
 li {
-	line-height: 1.75;
+    line-height: 1.75;
 }
 
-
-table { 
-	margin-bottom: 1.5em;
-	border-collapse: collapse;
-	width: 95%;
+table {
+    margin-bottom: 1.5em;
+    border-collapse: collapse;
+    width: 95%;
 }
 
 table tr + tr {
-	border-top: 1px solid #ccc;
+    border-top: 1px solid #ccc;
 }
 table td + td {
-	border-left: 1px solid #ccc;
+    border-left: 1px solid #ccc;
 }
 
 table td {
-	padding: 0.4em;
-	text-align: center;
-	-moz-hyphens: none;
-	-webkit-hyphens: none;
-	-o-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
+    padding: 0.4em;
+    text-align: center;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -o-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
 }
 
 table th {
-	font-weight: normal;
-	text-transform: uppercase;
-	font-size: 95%;
-	padding: 0.3rem 0.5rem 0.3rem 0.5rem;
-	line-height: 1.05;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: 95%;
+    padding: 0.3rem 0.5rem 0.3rem 0.5rem;
+    line-height: 1.05;
 }
 
 img {
-	width: 100%;
-	border-radius: 25px;
+    width: 100%;
+    border-radius: 25px;
 }
-
-
-
 
 a {
-	text-decoration: none;
-	color: inherit;
-	-moz-transition-property: background;
-	-webkit-transition-property: background;
-	transition-property: background;
-	-moz-transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-	transition-duration: 0.2s;
-}
-
-
-div.nav a:active div { 
-	background: #cacaca;
-}
-
-a:active { 
-	color: #777; 
-}
-
-a:hover {
-	background: #fbf3f3;
-	-moz-transition-property: background;
-	-webkit-transition-property: background;
-	transition-property: background;
-	-moz-transition-duration: 0.2s;
-	-webkit-transition-duration: 0.2s;
-	transition-duration: 0.2s;
-	border-radius: 10px;
-}
-
-
-a:after {
-    position: relative;
-    content: "\FEFF°";
-    margin-left: 0.10em;
-    font-size: 80%;
-    top: -0.30em;
-    left: -0.1em;
+    text-decoration: none;
+    /* color: inherit; */
+    -moz-transition-property: background;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
     color: #d21c1c;
 }
 
 
-code {
-	font-size: 95%;
-	-moz-hyphens: none;
-	-webkit-hyphens: none;
-	-o-hyphens: none;
-	-ms-hyphens: none;
-	hyphens: none;
+div.nav a:active div {
+    background: #cacaca;
 }
 
+a:active {
+    color: #777;
+}
+
+a:hover {
+    background: #fbf3f3;
+    -moz-transition-property: background;
+    -webkit-transition-property: background;
+    transition-property: background;
+    -moz-transition-duration: 0.2s;
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    border-radius: 10px;
+}
+
+.footer-nav {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+    align-items: stretch;
+}
+.footer-nav-elem {
+    flex-grow: 1;
+    font-size: 0.8em;
+}
+.footer-nav-elem.right {
+    text-align: right;
+}
+
+time {
+    color: #848484;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", "Helvetica", "Arial", "Lucida Grande", "sans-serif";
+}
+
+
+/* a:after { */
+/*     position: relative; */
+/*     content: "\FEFF°"; */
+/*     margin-left: 0.10em; */
+/*     font-size: 80%; */
+/*     top: -0.30em; */
+/*     left: -0.1em; */
+/*     color: #d21c1c; */
+/* } */
+
+
+code {
+    font-size: 95%;
+    -moz-hyphens: none;
+    -webkit-hyphens: none;
+    -o-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+}
 
 pre {
     font-size:0.8rem;
@@ -258,66 +280,65 @@ figcaption {
     z-index: 300;
     text-align: center;
 }
+
 blockquote {
-  font-style: italic;
-  font-size: 1.1em;
-  margin: 0.7em 10px;
-  padding: 1.2em 20px;
-  margin-bottom: 0px;
-  quotes: "\201C""\201D""\2018""\2019";
+    font-style: italic;
+    font-size: 1.1em;
+    margin: 0.7em 10px;
+    padding: 1.2em 20px;
+    margin-bottom: 0px;
+    quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before {
-  color: #ccc;
-  content: open-quote;
-  font-size: 3em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #ccc;
+    content: open-quote;
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
 
 blockquote:after {
-  color: #ccc;
-  content: close-quote;
-  font-size: 3em;
-  line-height: 0.1em;
-  margin-right: 0.25em;
-  vertical-align: -0.4em;
+    color: #ccc;
+    content: close-quote;
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.25em;
+    vertical-align: -0.4em;
 }
 blockquote p {
-  display: inline;
+    display: inline;
 }
 
-
 .twitter-tweet {
-  display: inline-block;
-  font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
-  font-size: 12px;
-  font-weight: bold;
-  line-height: 16px;
-  border-color: #eee #ddd #bbb;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
-  margin: 10px 5px;
-  padding: 0 16px 16px 16px;
-  max-width: 468px;
+    display: inline-block;
+    font-family: "Helvetica Neue", Roboto, "Segoe UI", Calibri, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+    border-color: #eee #ddd #bbb;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+    margin: 10px 5px;
+    padding: 0 16px 16px 16px;
+    max-width: 468px;
 }
 
 .twitter-tweet p {
-  font-size: 16px;
-  font-weight: normal;
-  line-height: 20px;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 20px;
 }
 
 .twitter-tweet a {
-  color: inherit;
-  font-weight: normal;
-  text-decoration: none;
-  outline: 0 none;
+    color: inherit;
+    font-weight: normal;
+    text-decoration: none;
+    outline: 0 none;
 }
 
-.twitter-tweet a:hover,
-.twitter-tweet a:focus {
-  text-decoration: underline;
+.twitter-tweet a:hover, .twitter-tweet a:focus {
+    text-decoration: underline;
 }
